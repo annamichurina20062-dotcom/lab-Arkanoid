@@ -1,3 +1,0 @@
-C:/Users/User/Downloads/files (2)/arkanoid/arkanoid/build/CMakeFiles/arkanoid.dir
-C:/Users/User/Downloads/files (2)/arkanoid/arkanoid/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/User/Downloads/files (2)/arkanoid/arkanoid/build/CMakeFiles/ZERO_CHECK.dir
