@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Downloads\files (2)\arkanoid\arkanoid\build\CMakeFiles\2d5b6bda99b458429c12c00a8d47a024\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{09E74B89-01F8-35B7-A362-0EF55951D9FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

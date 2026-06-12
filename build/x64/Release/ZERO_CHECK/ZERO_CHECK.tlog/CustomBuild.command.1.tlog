@@ -1,0 +1,10 @@
+^C:\USERS\USER\DOWNLOADS\FILES (2)\ARKANOID\ARKANOID\BUILD\CMAKEFILES\2D5B6BDA99B458429C12C00A8D47A024\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Downloads/files (2)/arkanoid/arkanoid" "-BC:/Users/User/Downloads/files (2)/arkanoid/arkanoid/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/User/Downloads/files (2)/arkanoid/arkanoid/build/Arkanoid.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

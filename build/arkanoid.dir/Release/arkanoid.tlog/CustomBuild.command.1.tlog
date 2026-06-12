@@ -1,0 +1,10 @@
+^C:\USERS\USER\DOWNLOADS\FILES (2)\ARKANOID\ARKANOID\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Downloads/files (2)/arkanoid/arkanoid" "-BC:/Users/User/Downloads/files (2)/arkanoid/arkanoid/build" --check-stamp-file "C:/Users/User/Downloads/files (2)/arkanoid/arkanoid/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
